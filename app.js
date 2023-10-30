@@ -11,6 +11,15 @@
 // console.log(sum(5, 10))
 
 // 05.
+// for(i=1; i<=10; i++){
+//   console.log(i);
+// }
+
+// 06.
 for(i=1; i<=10; i++){
-  console.log(i);
+  if( i%2 === 0){
+    console.log(`짝수 : ${i}`);
+  } else {
+    console.log(`홀수 : ${i}`);
+  }
 }
