@@ -55,21 +55,27 @@
 // 'use strict`; 조건식
 
 // 13. 자바스크립트의 대소문자 구분하는 예
-(1) - css에서 띄워쓰기나 하이픈이 들어가 있는 변수를 script로 바꿀때 
-(2) - 클래스 선언시에 앞글자를 대문자로 넣는다 동일한 종류의 객체를 여러개 생성할 때
-class Rectangle {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
-  }
-}
+// (1) - css에서 띄워쓰기나 하이픈이 들어가 있는 변수를 script로 바꿀때 
+// (2) - 클래스 선언시에 앞글자를 대문자로 넣는다 동일한 종류의 객체를 여러개 생성할 때
+// class Rectangle {
+//   constructor(height, width) {
+//     this.height = height;
+//     this.width = width;
+//   }
+// }
+
 // 14. 자바스크립트의 데이터 타입
-(1) - null
-(2) - undifined
-(3) - number
-(4) - variation
-(5) - string
-(6) - symbol
-(7) - boolean
-(8) - object
-(9) - array
+// (1) - null
+// (2) - undifined
+// (3) - number
+// (4) - variation
+// (5) - string
+// (6) - symbol
+// (7) - boolean
+// (8) - object
+// (9) - array
+
+// 15. 조건문에서 truty와 falsy 개념은 무엇인가? 
+// Truthy: true 같은거... Falsy: false 같은거...
+(1) - 
+(2) - 
