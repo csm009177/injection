@@ -16,10 +16,17 @@
 // }
 
 // 06.
-for(i=1; i<=10; i++){
-  if( i%2 === 0){
-    console.log(`짝수 : ${i}`);
-  } else {
-    console.log(`홀수 : ${i}`);
-  }
-}
+// for(i=1; i<=10; i++){
+//   if( i%2 === 0){
+//     console.log(`짝수 : ${i}`);
+//   } else {
+//     console.log(`홀수 : ${i}`);
+//   }
+// }
+
+// 07.
+let a = typeof(null);
+let b = typeof(undefined);
+console.log(a, b)
+// null : 객체. 어떤값이 의도적으로 비어 있음을 표현 / 불리언 연산에서는 거짓
+// undefined : 문법적으로 유효함에도 불구 식이 올바른 값을 가지고 있지 않은 상태이다. 미정의 값은 빈 문자열, 불리언의 "false", 또는 정의되었으나 비어있는 값과는 구별된다
