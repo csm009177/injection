@@ -53,3 +53,13 @@
 // 암묵적인 "느슨한 모드(sloppy mode)"를 해제하고,
 // 명시적인 "엄격 모드(Strict Mode)"를 사용하는 방법이다.
 // 'use strict`; 조건식
+
+// 13. 자바스크립트의 대소문자 구분하는 예
+(1) - css에서 띄워쓰기나 하이픈이 들어가 있는 변수를 script로 바꿀때 
+(2) - 클래스 선언시에 앞글자를 대문자로 넣는다 동일한 종류의 객체를 여러개 생성할 때
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+}
