@@ -63,3 +63,13 @@ class Rectangle {
     this.width = width;
   }
 }
+// 14. 자바스크립트의 데이터 타입
+(1) - null
+(2) - undifined
+(3) - number
+(4) - variation
+(5) - string
+(6) - symbol
+(7) - boolean
+(8) - object
+(9) - array
