@@ -92,20 +92,25 @@
 // 15. 조건문에서 truty와 falsy 개념은 무엇인가? 예시를 들어보세요
 // Truthy: true 같은거... Falsy: false 같은거...
 
-  (1) Truthy - 
-  모든 값은 default가 Truthy
-  명시된 True
-  0이 아닌 모든 숫자는
-  비어있지 않은 문자열
-  객체
-  비어있지 않은 배열
-  정의된 함수는  
-  (2) Falsy -
-  명시된 false
-  null
-  undefined
-  숫자  0
-  숫자 -0
-  숫자가 아닌 NaN(Not-a-Number)
-  빈문자열 : "" 또는 ''
- 
+  // (1) Truthy - 
+  // 모든 값은 default가 Truthy
+  // 명시된 True
+  // 0이 아닌 모든 숫자는
+  // 비어있지 않은 문자열
+  // 객체
+  // 비어있지 않은 배열
+  // 정의된 함수는  
+  // (2) Falsy -
+  // 명시된 false
+  // null
+  // undefined
+  // 숫자  0
+  // 숫자 -0
+  // 숫자가 아닌 NaN(Not-a-Number)
+  // 빈문자열 : "" 또는 ''
+
+16. typeof 연산자를 사용해 변수의 타입을 확인하는 예제 코드를 작성하세요
+  let variation = "";
+  if(typeof(variation)==="string"){
+    console.log('error')
+  }
