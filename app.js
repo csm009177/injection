@@ -109,8 +109,29 @@
   // 숫자가 아닌 NaN(Not-a-Number)
   // 빈문자열 : "" 또는 ''
 
-16. typeof 연산자를 사용해 변수의 타입을 확인하는 예제 코드를 작성하세요
-  let variation = "";
-  if(typeof(variation)==="string"){
-    console.log('error')
-  }
+// 16. typeof 연산자를 사용해 변수의 타입을 확인하는 예제 코드를 작성하세요
+//   let variation = "";
+//   if(typeof(variation)==="string"){
+//     console.log('error')
+//   }
+
+17. 자바스크립트에서 "==" 와 "==="의 차이점을 설명해 보세요
+  "==" 문자열과 숫자를 알아서 해석을 해버립니다 ex) 1=='1' true
+  "===" 문자열과 숫자를 알아서 해석하지 않습니다 ex) 1=='1' false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
