@@ -125,32 +125,44 @@
 //     console.log('True')
 //   }else{console.error('false') }
 
-19. +, -, *, /, 연산자를 사용해 간단한 산술 연산을 하는 코드를 작성하세요
-  function add (a,b){
-    console.log(a + b)
-  }
-  function mino (a,b){
-    console.log(a - b)
-  }
-  function mult (a,b){
-    console.log(a * b)
-  }
-  function divi (a,b){
-    console.log(a / b)
-  }
+// 19. +, -, *, /, 연산자를 사용해 간단한 산술 연산을 하는 코드를 작성하세요
+//   function add (a,b){
+//     console.log(a + b)
+//   }
+//   function mino (a,b){
+//     console.log(a - b)
+//   }
+//   function mult (a,b){
+//     console.log(a * b)
+//   }
+//   function divi (a,b){
+//     console.log(a / b)
+//   }
   
-  function calc(callback){
-    let a = 1
-    let b = 2
-    callback(a,b)
-  }
-  calc(add)
-  calc(mino)
-  calc(mult)
-  calc(divi)
+//   function calc(callback){
+//     let a = 1
+//     let b = 2
+//     callback(a,b)
+//   }
+//   calc(add)
+//   calc(mino)
+//   calc(mult)
+//   calc(divi)
 
+20. 10을 3으로 나눈 마머지를 구하는 코드를 작성해보세요
+  
+function div(a,b){
+  console.log(a%b)
+  console.log(Math.abs(a - (b * (a / b | 0))))
+}
+div(20,3)
 
-
+explain : 
+그 다음 a / b | 0을 사용하여 
+비트 OR 연산자(|)를 이용하면 
+소수 부분을 제거하고 정수 부분만 남습니다. 
+이것은 나눈 몫을 구하는 효과를 가지며, 
+그 결과를 다시 b와 곱합니다.
 
 
 
