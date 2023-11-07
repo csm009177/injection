@@ -119,14 +119,35 @@
 //   "==" 문자열과 숫자를 알아서 해석을 해버립니다 ex) 1=='1' true
 //   "===" 문자열과 숫자를 알아서 해석하지 않습니다 ex) 1=='1' false
 
-18. 변수 X에 값 10을 할당하고, x의 값이 10인지 확인하는 코드를 작성해보세요
-  let varation = 10;
-  if(varation===10){
-    console.log('True')
-  }else{console.error('false') }
+// 18. 변수 X에 값 10을 할당하고, x의 값이 10인지 확인하는 코드를 작성해보세요
+//   let varation = 10;
+//   if(varation===10){
+//     console.log('True')
+//   }else{console.error('false') }
 
-
-
+19. +, -, *, /, 연산자를 사용해 간단한 산술 연산을 하는 코드를 작성하세요
+  function add (a,b){
+    console.log(a + b)
+  }
+  function mino (a,b){
+    console.log(a - b)
+  }
+  function mult (a,b){
+    console.log(a * b)
+  }
+  function divi (a,b){
+    console.log(a / b)
+  }
+  
+  function calc(callback){
+    let a = 1
+    let b = 2
+    callback(a,b)
+  }
+  calc(add)
+  calc(mino)
+  calc(mult)
+  calc(divi)
 
 
 
