@@ -1,5 +1,4 @@
 // 01. 배열의 끝에 하나 이상의 요소를 추가하고, 배열의 새 길이를 반환하는 메서드는 무엇인가요?
-
 // let array = [1,2,3]
 // console.log(array)
 // let arrayPush=array.push(4)
@@ -7,15 +6,19 @@
 // console.log(arrayPush)
 
 // 02. 배열에서 마지막 요소를 제거하고 그 요소를 반환하는 메서드는 무엇인가요?
-
-let array = [1,2,3,4]
-console.log(array)
-let arrayPop=array.pop()
-console.log(array)
-console.log(arrayPop)
-
+// let array = [1,2,3,4]
+// console.log(array)
+// let arrayPop=array.pop()
+// console.log(array)
+// console.log(arrayPop)
 
 // 03. 배열에서 첫 번재 요소를 제거하고 그 요소를 반환하는 메서드는 무엇인가요?
+let array = [1,2,3,4]
+console.log(array)
+let arrayShift=array.shift()
+console.log(array)
+console.log(arrayShift)
+
 
 // 04. 배열의 시작에 하나 이상의 요소를 추가하고, 배열의 새 길이를 반환하는 메서드는 무엇인가요?
 
