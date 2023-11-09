@@ -51,15 +51,23 @@
 // console.log(concatArrays)
 
 // 08. 배열의 모든 요소를 연결해 하나의 문자열로 만드는 메서드는 무엇인가요?
-let array = [1,2,3,4]
-console.log(array)
-let arrayJoin=array.join("/")
-console.log(array)
-console.log(arrayJoin)
+// let array = [1,2,3,4]
+// console.log(array)
+// let arrayJoin=array.join("/")
+// console.log(array)
+// console.log(arrayJoin)
 
 // 09. 배열의 순서를 발전시키는 메서드는 무엇인가요?
+let array = [1,2,3,4]
+console.log(array)
+let arrayReverse=array.reverse()
+console.log(array)
+console.log(arrayReverse)
 
 // 10. 배열의 요소를 적절한 위치에 정렬하는 메서드는 무엇인가요?
+
+
+
 
 // 11. 배열에서 지정된 요소를 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
 
