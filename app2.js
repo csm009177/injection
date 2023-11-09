@@ -65,13 +65,17 @@
 // console.log(arrayReverse)
 
 // 10. 배열의 요소를 적절한 위치에 정렬하는 메서드는 무엇인가요?
-let array = [4,2,1,3]
-console.log(array)
-let arraySort=array.sort()
-console.log(array)
-console.log(arraySort)
+// let array = [4,2,1,3]
+// console.log(array)
+// let arraySort=array.sort()
+// console.log(array)
+// console.log(arraySort)
 
 // 11. 배열에서 지정된 요소를 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
+let arr = ['apple', 'banana', 'orange']  
+let index = arr.indexOf('banana')  
+console.log(index)
+
 
 // 12. 배열에서 지정된 요소를 뒤에서부터 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
 
