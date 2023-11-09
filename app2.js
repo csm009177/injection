@@ -57,17 +57,19 @@
 // console.log(array)
 // console.log(arrayJoin)
 
-// 09. 배열의 순서를 발전시키는 메서드는 무엇인가요?
-let array = [1,2,3,4]
-console.log(array)
-let arrayReverse=array.reverse()
-console.log(array)
-console.log(arrayReverse)
+// 09. 배열의 순서를 반전시키는 메서드는 무엇인가요?
+// let array = [1,2,3,4]
+// console.log(array)
+// let arrayReverse=array.reverse()
+// console.log(array)
+// console.log(arrayReverse)
 
 // 10. 배열의 요소를 적절한 위치에 정렬하는 메서드는 무엇인가요?
-
-
-
+let array = [4,2,1,3]
+console.log(array)
+let arraySort=array.sort()
+console.log(array)
+console.log(arraySort)
 
 // 11. 배열에서 지정된 요소를 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
 
