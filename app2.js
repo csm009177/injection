@@ -20,15 +20,23 @@
 // console.log(arrayShift)
 
 // 04. 배열의 시작에 하나 이상의 요소를 추가하고, 배열의 새 길이를 반환하는 메서드는 무엇인가요?
-let array = [2,3,4]
-console.log(array)
-let arrayUnshift=array.unshift(1)
-console.log(array)
-console.log(arrayUnshift)
+// let array = [2,3,4]
+// console.log(array)
+// let arrayUnshift=array.unshift(1)
+// console.log(array)
+// console.log(arrayUnshift)
 
-// 05. 배열의 일부를 얕은 복사본으로 추출하고 새로운 배열 객체로 반환하는 메서드는 무엇인가요?
+// 05. 배열의 일부를 얕은 복사본으로 추출하고, 새로운 배열 객체로 반환하는 메서드는 무엇인가요?
+let array = [0,1,2,3,4]
+console.log(array)
+let arraySlice=array.slice(0,2) // slice(indexStart, indexEnd-1)
+console.log(array)
+console.log(arraySlice)
 
 // 06. 배열의 기존 요소를 삭제 또는 교체하거나 새 요소를 추가하여 배열의 내용을 변경하는 메서드는 무엇인가요?
+
+
+
 
 // 07. 두 개 이상의 배열을 결합하여 새 배열을 만드는 메서드는 무엇인가요?
 
