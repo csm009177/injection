@@ -34,13 +34,21 @@
 // console.log(arraySlice)
 
 // 06. 배열의 기존 요소를 삭제 또는 교체하거나 새 요소를 추가하여 배열의 내용을 변경하는 메서드는 무엇인가요?
-let array = [0,1,2,3,4]
-console.log(array)
-let arraySplice=array.splice(0,2) // splice(indexStart, indexEnd-1)
-console.log(array)
-console.log(arraySplice)
+// let array = [0,1,2,3,4]
+// console.log(array)
+// let arraySplice=array.splice(0,2) // splice(indexStart, indexEnd-1)
+// console.log(array)
+// console.log(arraySplice)
 
 // 07. 두 개 이상의 배열을 결합하여 새 배열을 만드는 메서드는 무엇인가요?
+let array = [1,2,3,4]; let brray = [5,6,7,8]
+console.log(array)
+console.log(brray)
+console.log("-----------------------------")
+let concatArrays=array.concat(brray)
+console.log(array)
+console.log(brray)
+console.log(concatArrays)
 
 // 08. 배열의 모든 요소를 연결해 하나의 문자열로 만드는 메서드는 무엇인가요?
 
