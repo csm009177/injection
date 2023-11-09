@@ -41,16 +41,21 @@
 // console.log(arraySplice)
 
 // 07. 두 개 이상의 배열을 결합하여 새 배열을 만드는 메서드는 무엇인가요?
-let array = [1,2,3,4]; let brray = [5,6,7,8]
-console.log(array)
-console.log(brray)
-console.log("-----------------------------")
-let concatArrays=array.concat(brray)
-console.log(array)
-console.log(brray)
-console.log(concatArrays)
+// let array = [1,2,3,4]; let brray = [5,6,7,8]
+// console.log(array)
+// console.log(brray)
+// console.log("-----------------------------")
+// let concatArrays=array.concat(brray)
+// console.log(array)
+// console.log(brray)
+// console.log(concatArrays)
 
 // 08. 배열의 모든 요소를 연결해 하나의 문자열로 만드는 메서드는 무엇인가요?
+let array = [1,2,3,4]
+console.log(array)
+let arrayJoin=array.join("/")
+console.log(array)
+console.log(arrayJoin)
 
 // 09. 배열의 순서를 발전시키는 메서드는 무엇인가요?
 
