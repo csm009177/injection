@@ -112,16 +112,17 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 
 // 문항.9
 // 모든 학생의 이름 앞에 '학생_'을 붙여 새로운 형식으로 명단을 만드는 코드를 작성하세요.
-const newList = []
-studentList.forEach(Element=>{
-  newList.push("학생_"+Element)
-})
-
-console.log(newList)
+// const newList = []
+// studentList.forEach(Element=>{
+//   newList.push("학생_"+Element)
+// })
+// console.log(newList)
 
 
 // 문항.10
 // 명단에 있는 모든 학생들의 이름을 하나의 문자열로 연결하여 출력하는 코드를 작성하세요.
+console.log(studentList.join(""))
+
 
 // 문항.11
 // 모든 학생들의 이름이 세 글자인지 확인하는 코드를 작성하세요.
