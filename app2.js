@@ -135,13 +135,18 @@
 // console.log(arrayevery)
 
 // 20. 배열의 각 요소에 대해 주어진 리듀서(reducer)함수를 실행하고 하나의 결과값을 반환하는 메서드는 무엇인가요?
-let array = [1,2,3,4]
-console.log(array)
-let arrayreduce=array.reduce((acc, num) => acc + num, 0)
-console.log(array)
-console.log(arrayreduce)
+// let array = ['a', 'b', 'c']
+// console.log(array)
+// let arrayreduce=array.reduce((acc, num) => acc + num, 0)
+// console.log(array)
+// console.log(arrayreduce)
 
 // 21. reducer()와 같지만 배열의 끝에서 부터 함수를 적용하는 메서드는 무엇인가요?
+let array = ['a', 'b', 'c']
+console.log(array)
+let arrayreduceRight=array.reduceRight((acc, num) => acc + num, 0)
+console.log(array)
+console.log(arrayreduceRight)
 
 // 22. 배열의 특정 요소를 포함하고 있는지 판별하는 메서드는 무엇인가요?
 
