@@ -72,16 +72,18 @@
 // console.log(arraySort)
 
 // 11. 배열에서 지정된 요소를 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
-let array = [1,2,3,4]
-console.log(array)
-let arrayIndexOf=array.indexOf(3)
-console.log(array)
-console.log(arrayIndexOf)
+// let array = [1,2,3,4]
+// console.log(array)
+// let arrayIndexOf=array.indexOf(3)
+// console.log(array)
+// console.log(arrayIndexOf)
 
 // 12. 배열에서 지정된 요소를 뒤에서부터 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
-
-
-
+let array = [1,2,3,4,3]
+console.log(array)
+let arrayLastIndexOf=array.lastIndexOf(3)
+console.log(array)
+console.log(arrayLastIndexOf)
 
 // 13. 주어진 테스트 함수를 만족하는 배열의 첫 번재 요소의 값을 반환하는 메서드는 무엇인가요?
 
