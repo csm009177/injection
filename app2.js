@@ -114,14 +114,18 @@
 // console.log(arraymap)
 
 // 17. 배열의 각 요소에 대해 주어진 함수를 실행하는 메서드는 무엇인가요?
-let array = [1,2,3,4]
-console.log(array)
-let arrayforEach=array.forEach(num => console.log(num*2))
-console.log(array)
-console.log(arrayforEach)
-
+// let array = [1,2,3,4]
+// console.log(array)
+// let arrayforEach=array.forEach(num => console.log(num*2))
+// console.log(array)
+// console.log(arrayforEach)
 
 // 18. 배열의 어떤 요소라도 주어진 테스트 함수를 통과하는지 테스트하는 메서드는 무엇인가요?
+let array = [1,2,3,4]
+console.log(array)
+let arraysome=array.some(num=>num>5)
+console.log(array)
+console.log(arraysome)
 
 // 19. 배열의 모든 요소가 주어진 테스트 함수를 통과하는지 테스트하는 메서드는 무엇인가요?
 
