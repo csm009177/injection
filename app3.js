@@ -124,19 +124,21 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 
 // 문항.11
 // 모든 학생들의 이름이 세 글자인지 확인하는 코드를 작성하세요.
-studentList.forEach(Element=> {
-  count=0;
-  if(Element.length===3){
-    count = count +1
-    // console.log(true)
-  } else { 
-    count = count - 1
-    // console.log(false)
+let count = 0;
+studentList.forEach(element => {
+  if (element.length === 3) {
+    console.log(element.length)
+    count = count + 1;
+  } else {
+    console.log(element.length)
   }
-  if(count===4){
-    console.log(true)
-  } else{   console.log(false)}
-})
+});
+if (count === 3) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+console.log(count)
 
 
 // 문항.12
