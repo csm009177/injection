@@ -86,20 +86,24 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 
 // 문항.7
 // 명단에서 성씨가 ‘김’씨인 학생의 이름을 찾아 출력하는 코드를 작성하세요.
-// 방법1
-// studentList.forEach(element=>{
-//   if(element[0]==="김"){
-//     console.log(element)
-//   }
-// })
+//방법1
+const kimList = [];
+studentList.forEach(element=>{
+  if(element[0]==="김"){
+    kimList.push(element)
+  }
+})
+console.log(kimList);
 
 // 방법2 
-const kimList = []
-for(let a  in studentList ){
-  a = studentList.includes("김")
-  kimList.push(a)
+const kimList2 = [];
+
+for (const i of studentList) {
+  if (i.includes("김")) {
+    kimList2.push(i);
+  }
 }
-console.log(kimList)
+console.log(kimList2);
 
 // 문항.8
 // 기초데이터(studentList, pokemonList) 두 개의 명단을 합쳐 전체 학생 명단을 만들려고 합니다. 두 명단을 결합하는 코드를 작성하세요.
