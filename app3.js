@@ -35,18 +35,31 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 // const d = a.concat(studentList);  // 명단에서 잘린 앞부분과 "N"이 추가된 배열을 합치기
 // console.log(d)                  // [ '김○진', '김○', 'N', '홍○기' ]
 
-// // 방법2
+// 방법2
 // studentList[2] = "N";
 // console.log(studentList)
 
 
 // 문항.4
 // 명단의 순서를 역순으로 바꾸고자 합니다. 이를 위한 코드를 작성하세요.
+//방법1
 // let a = studentList.reverse()
 // console.log(a)
 
+// 방법2
+// const newList = []
+// for(i=0; studentList.length; i++){
+//   const newList = studentList.pop()
+//   console.log(newList)
+// }
+
 // 문항.5
 // 임의의 학생(본인이름) 명단에서 몇 번째에 있는지 찾아서 그 위치를 출력하는 코드를 작성하세요.
+// 방법1
+let a = studentList.indexOf("김○")
+console.log(a)              // 몇번째인지
+studentList[a] = a;         // 그 위치를 표시
+console.log(studentList)
 
 
 
