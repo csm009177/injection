@@ -72,11 +72,11 @@
 // console.log(arraySort)
 
 // 11. 배열에서 지정된 요소를 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
-// let array = [1,2,3,4]
-// console.log(array)
-// let arrayIndexOf=array.indexOf(3)
-// console.log(array)
-// console.log(arrayIndexOf)
+let array = ['a','b','c','d']
+console.log(array)
+let arrayIndexOf=array.indexOf('c')
+console.log(array)
+console.log(arrayIndexOf)
 
 // 12. 배열에서 지정된 요소를 뒤에서부터 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
 // let array = [1,2,3,4,3]
@@ -163,8 +163,8 @@
 // console.log(arrayflatMap)
 
 // 24. 지정된 깊이까지 재귀적으로 평탄화하여 새 배열을 생성하는 메서드는 무엇인가요?
-let array = [1, [2, [3, 4]]]
-console.log(array)
-let arrayflat=array.flat(2)
-console.log(array)
-console.log(arrayflat)
+// let array = [1, [2, [3, 4]]]
+// console.log(array)
+// let arrayflat=array.flat(2)
+// console.log(array)
+// console.log(arrayflat)
