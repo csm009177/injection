@@ -65,33 +65,41 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 // 문항.6
 // 명단에 같은 이름(성씨제외)을 가진 학생이 두 명 있습니다. 이 중 마지막에 있는 학생의 위치를 찾아 출력하는 코드를 작성하세요.
 // 방법1
-const newstudentList = [ "김우진", "김현", "방승희", "오승민", "홍문기", "유승민" ];
+// const newstudentList = [ "김우진", "김현", "방승희", "오승민", "홍문기", "유승민" ];
 
-const smList = [];
-newstudentList.forEach(element => {
-  if(element[1]==="승"&&element[2]==="민"){
-    smList.push(element)
-  }
-});
-console.log(smList.pop())
-// 방법2
-const smList2 = []
-newstudentList.forEach(element => { 
-  if(element.includes("승민")){
-    smList2.push(element)
-  }
-})
-console.log(smList2.pop())
+// const smList = [];
+// newstudentList.forEach(element => {
+//   if(element[1]==="승"&&element[2]==="민"){
+//     smList.push(element)
+//   }
+// });
+// console.log(smList.pop())
+// // 방법2
+// const smList2 = []
+// newstudentList.forEach(element => { 
+//   if(element.includes("승민")){
+//     smList2.push(element)
+//   }
+// })
+// console.log(smList2.pop())
 
 
 // 문항.7
 // 명단에서 성씨가 ‘김’씨인 학생의 이름을 찾아 출력하는 코드를 작성하세요.
+// 방법1
 // studentList.forEach(element=>{
 //   if(element[0]==="김"){
 //     console.log(element)
 //   }
 // })
 
+// 방법2 
+const kimList = []
+for(let a  in studentList ){
+  a = studentList.includes("김")
+  kimList.push(a)
+}
+console.log(kimList)
 
 // 문항.8
 // 기초데이터(studentList, pokemonList) 두 개의 명단을 합쳐 전체 학생 명단을 만들려고 합니다. 두 명단을 결합하는 코드를 작성하세요.
