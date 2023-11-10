@@ -149,12 +149,17 @@
 // console.log(arrayreduceRight)
 
 // 22. 배열의 특정 요소를 포함하고 있는지 판별하는 메서드는 무엇인가요?
-let array = [1,2,3,4]
-console.log(array)
-let arrayincludes=array.includes(5)
-console.log(array)
-console.log(arrayincludes)
+// let array = [1,2,3,4]
+// console.log(array)
+// let arrayincludes=array.includes(5)
+// console.log(array)
+// console.log(arrayincludes)
 
 // 23. 먼저 주어진 함수를 배열의 각 요소에 매핑한 다음 결과를 새 배열로 평탄화하는 메서드는 무엇인가요?
+let array = [1,2,3,4]
+console.log(array)
+let arrayflatMap=array.flatMap(num => [num, num * 2])
+console.log(array)
+console.log(arrayflatMap)
 
 // 24. 지정된 깊이까지 재귀적으로 평탄화하여 새 배열을 생성하는 메서드는 무엇인가요?
