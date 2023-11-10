@@ -107,14 +107,19 @@
 // console.log(arrayfilter)
 
 // 16. 배열 내의 모든 요소 각각에 대하여 주어진 함수를 호출한 결과를 모아 새 배열로 반환하는 메서드는 무엇인가요?
-let array = [1,2,3,4]
-console.log(array)
-let arraymap=array.map(num=>num>3)
-console.log(array)
-console.log(arraymap)
-
+// let array = [1,2,3,4]
+// console.log(array)
+// let arraymap=array.map(num=>num>3)
+// console.log(array)
+// console.log(arraymap)
 
 // 17. 배열의 각 요소에 대해 주어진 함수를 실행하는 메서드는 무엇인가요?
+let array = [1,2,3,4]
+console.log(array)
+let arrayforEach=array.forEach(num => console.log(num*2))
+console.log(array)
+console.log(arrayforEach)
+
 
 // 18. 배열의 어떤 요소라도 주어진 테스트 함수를 통과하는지 테스트하는 메서드는 무엇인가요?
 
