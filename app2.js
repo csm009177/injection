@@ -72,16 +72,16 @@
 // console.log(arraySort)
 
 // 11. 배열에서 지정된 요소를 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
-let array = ['a','b','c','d']
-console.log(array)
-let arrayIndexOf=array.indexOf('c')
-console.log(array)
-console.log(arrayIndexOf)
+// let array = ['a','b','c','d']
+// console.log(array)
+// let arrayIndexOf=array.indexOf('c')
+// console.log(array)
+// console.log(arrayIndexOf)
 
 // 12. 배열에서 지정된 요소를 뒤에서부터 찾고, 그 인덱스를 반환하는 메서드는 무엇인가요?
-// let array = [1,2,3,4,3]
+// let array = ['a','b','c','d','b']
 // console.log(array)
-// let arrayLastIndexOf=array.lastIndexOf(3)
+// let arrayLastIndexOf=array.lastIndexOf('b')
 // console.log(array)
 // console.log(arrayLastIndexOf)
 
