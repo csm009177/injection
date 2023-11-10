@@ -43,28 +43,30 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 // 문항.4
 // 명단의 순서를 역순으로 바꾸고자 합니다. 이를 위한 코드를 작성하세요.
 //방법1
-// let a = studentList.reverse()
+// const a = studentList.reverse()
 // console.log(a)
 
 // 방법2
 // const newList = []
-// for(i=0; studentList.length; i++){
-//   const newList = studentList.pop()
+// for(i=0; i<studentList.length; i++){
+//   const a = studentList.pop()
+//   newList = String(a)
 //   console.log(newList)
 // }
 
 // 문항.5
 // 임의의 학생(본인이름) 명단에서 몇 번째에 있는지 찾아서 그 위치를 출력하는 코드를 작성하세요.
 // 방법1
-let a = studentList.indexOf("김○")
-console.log(a)              // 몇번째인지
-studentList[a] = a;         // 그 위치를 표시
-console.log(studentList)
-
-
+// const a = studentList.indexOf("김○")
+// console.log(a)              // 몇번째인지
+// studentList[a] = a;         // 그 위치를 표시
+// console.log(studentList)
 
 // 문항.6
 // 명단에 같은 이름(성씨제외)을 가진 학생이 두 명 있습니다. 이 중 마지막에 있는 학생의 위치를 찾아 출력하는 코드를 작성하세요.
+// for(i=0, i<)
+
+
 
 // 문항.7
 // 명단에서 성씨가 ‘김’씨인 학생의 이름을 찾아 출력하는 코드를 작성하세요.
