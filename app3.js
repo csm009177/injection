@@ -6,21 +6,39 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 
 // 문항.1
 // 전체 명단을 문자열로 출력하여, 모든 학생의 이름이 쉼표로 구분되도록 하려고 합니다. 이를 구현하는 코드를 작성하세요.
-// let a=studentList.concat(pokemonList)
+// const a=studentList.concat(pokemonList)
 // console.log(a) // 전체 명단 
-// let b=a.join(',') // ','로 구분
+// const b=a.join(',') // ','로 구분
 // console.log(b)
-// let c=a.join('/') // '/'로 구분
+// const c=a.join('/') // '/'로 구분
 // console.log(c)
 
 // 문항.2
 // 명단에서 마지막 학생이 전학을 갔습니다. 이 학생을 명단에서 제거하고, 그 학생의 이름을 출력하는 코드를 작성하세요.
-let a = studentList.pop()
-console.log(studentList)
-console.log(a)
+// const a = studentList.pop()
+// console.log(studentList)
+// console.log(a)
 
 // 문항.3
 // 명단 중 세 번째 학생이 전학을 갔고, 새 학생이 그 자리에 왔습니다. 기존 학생을 제거하고 새 학생을 추가하는 코드를 작성하세요.
+
+//방법1
+const a = studentList.splice(0,2) // 명단에서 앞부분 자르기
+console.log(a)                  // [ '김○진', '김○' ]
+console.log(studentList)        // [ '방○희', '홍○기' ] -
+const b =studentList.shift()      // 잘린 배열의 첫 학생을 뺀다
+console.log(b)                  // 방○희
+console.log(studentList)        // [ '홍○기' ]
+const c =studentList.unshift("N") // 잘린 배열에 "N" 학생 추가
+console.log(c)                  // 2
+console.log(studentList)        // [ 'N', '홍○기' ]
+const d = a.concat(studentList);  // 명단에서 잘린 앞부분과 "N"이 추가된 배열을 합치기
+console.log(d)                  // [ '김○진', '김○', 'N', '홍○기' ]
+
+// 방법2
+studentList[2] = "N";
+console.log(studentList)
+
 
 // 문항.4
 // 명단의 순서를 역순으로 바꾸고자 합니다. 이를 위한 코드를 작성하세요.

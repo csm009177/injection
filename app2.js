@@ -27,18 +27,18 @@
 // console.log(arrayUnshift)
 
 // 05. 배열의 일부를 얕은 복사본으로 추출하고, 새로운 배열 객체로 반환하는 메서드는 무엇인가요?
-// let array = [0,1,2,3,4]
+// let array = [0,1,2,3,4] 
 // console.log(array)
 // let arraySlice=array.slice(0,2) // slice(indexStart, indexEnd-1)
-// console.log(array)
-// console.log(arraySlice)
+// console.log(array)              // [ 0, 1, 2, 3, 4 ] - 기존 배열은 그대로
+// console.log(arraySlice)         // [ 0, 1 ]          - 반환하는 것은 같음
 
 // 06. 배열의 기존 요소를 삭제 또는 교체하거나 새 요소를 추가하여 배열의 내용을 변경하는 메서드는 무엇인가요?
 // let array = [0,1,2,3,4]
 // console.log(array)
 // let arraySplice=array.splice(0,2) // splice(indexStart, indexEnd-1)
-// console.log(array)
-// console.log(arraySplice)
+// console.log(array)                // [ 2, 3, 4 ] - 기존 배열에서 제거
+// console.log(arraySplice)          // [ 0, 1 ]    - 반환하는 것은 같다
 
 // 07. 두 개 이상의 배열을 결합하여 새 배열을 만드는 메서드는 무엇인가요?
 // let array = [1,2,3,4]; let brray = [5,6,7,8]
