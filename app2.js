@@ -142,13 +142,18 @@
 // console.log(arrayreduce)
 
 // 21. reducer()와 같지만 배열의 끝에서 부터 함수를 적용하는 메서드는 무엇인가요?
-let array = ['a', 'b', 'c']
-console.log(array)
-let arrayreduceRight=array.reduceRight((acc, num) => acc + num, 0)
-console.log(array)
-console.log(arrayreduceRight)
+// let array = ['a', 'b', 'c']
+// console.log(array)
+// let arrayreduceRight=array.reduceRight((acc, num) => acc + num, 0)
+// console.log(array)
+// console.log(arrayreduceRight)
 
 // 22. 배열의 특정 요소를 포함하고 있는지 판별하는 메서드는 무엇인가요?
+let array = [1,2,3,4]
+console.log(array)
+let arrayincludes=array.includes(5)
+console.log(array)
+console.log(arrayincludes)
 
 // 23. 먼저 주어진 함수를 배열의 각 요소에 매핑한 다음 결과를 새 배열로 평탄화하는 메서드는 무엇인가요?
 
