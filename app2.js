@@ -121,13 +121,18 @@
 // console.log(arrayforEach)
 
 // 18. 배열의 어떤 요소라도 주어진 테스트 함수를 통과하는지 테스트하는 메서드는 무엇인가요?
-let array = [1,2,3,4]
-console.log(array)
-let arraysome=array.some(num=>num>5)
-console.log(array)
-console.log(arraysome)
+// let array = [1,2,3,4]
+// console.log(array)
+// let arraysome=array.some(num=>num>5)
+// console.log(array)
+// console.log(arraysome)
 
 // 19. 배열의 모든 요소가 주어진 테스트 함수를 통과하는지 테스트하는 메서드는 무엇인가요?
+let array = [1,2,3,4]
+console.log(array)
+let arrayevery=array.every(num=>num>0)
+console.log(array)
+console.log(arrayevery)
 
 // 20. 배열의 각 요소에 대해 주어진 리듀서(reducer)함수를 실행하고 하나의 결과값을 반환하는 메서드는 무엇인가요?
 
