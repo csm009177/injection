@@ -1,5 +1,5 @@
 
-const studentList = [ "김○진", "김○", "방○희", "홍○기"];
+const studentList = [ "김우진", "김현", "방승희", "홍문기"];
 //studentList length : 17
 const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 // pokemonList length : 4 
@@ -24,16 +24,16 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 
 //방법1
 // const a = studentList.splice(0,2) // 명단에서 앞부분 자르기
-// console.log(a)                  // [ '김○진', '김○' ]
-// console.log(studentList)        // [ '방○희', '홍○기' ] -
+// console.log(a)                  // [ '김우진', '김현' ]
+// console.log(studentList)        // [ '방승희', '홍문기' ] -
 // const b =studentList.shift()      // 잘린 배열의 첫 학생을 뺀다
-// console.log(b)                  // 방○희
-// console.log(studentList)        // [ '홍○기' ]
+// console.log(b)                  // 방승희
+// console.log(studentList)        // [ '홍문기' ]
 // const c =studentList.unshift("N") // 잘린 배열에 "N" 학생 추가
 // console.log(c)                  // 2
-// console.log(studentList)        // [ 'N', '홍○기' ]
+// console.log(studentList)        // [ 'N', '홍문기' ]
 // const d = a.concat(studentList);  // 명단에서 잘린 앞부분과 "N"이 추가된 배열을 합치기
-// console.log(d)                  // [ '김○진', '김○', 'N', '홍○기' ]
+// console.log(d)                  // [ '김우진', '김현', 'N', '홍문기' ]
 
 // 방법2
 // studentList[2] = "N";
@@ -57,14 +57,15 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 // 문항.5
 // 임의의 학생(본인이름) 명단에서 몇 번째에 있는지 찾아서 그 위치를 출력하는 코드를 작성하세요.
 // 방법1
-// const a = studentList.indexOf("김○")
+// const a = studentList.indexOf("김현")
 // console.log(a)              // 몇번째인지
 // studentList[a] = a;         // 그 위치를 표시
 // console.log(studentList)
 
 // 문항.6
 // 명단에 같은 이름(성씨제외)을 가진 학생이 두 명 있습니다. 이 중 마지막에 있는 학생의 위치를 찾아 출력하는 코드를 작성하세요.
-// for(i=0, i<)
+const a = studentList.lastIndexOf("홍문기")
+console.log(a)
 
 
 
