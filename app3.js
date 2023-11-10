@@ -75,7 +75,13 @@ newstudentList.forEach(element => {
 });
 console.log(smList.pop())
 // 방법2
-
+const smList2 = []
+newstudentList.forEach(element => { 
+  if(element.includes("승민")){
+    smList2.push(element)
+  }
+})
+console.log(smList2.pop())
 
 
 // 문항.7
