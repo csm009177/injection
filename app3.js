@@ -157,15 +157,26 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 
 // 문항.14
 // 명단에서 이름에 '승'을 포함하는 모든 학생들의 이름을 찾아 새로운 명단을 만드는 코드를 작성하세요.
-const newstudentList = [ "김우진", "김현", "방승희", "오승민", "홍문기", "유승민" ];
-const makeList =[]
-newstudentList.forEach(Element => {
-  if(Element.includes("승")){
-    makeList.push(Element)
-  }
-})
-console.log(makeList)
+// const newstudentList = [ "김우진", "김현", "방승희", "오승민", "홍문기", "유승민" ];
+// const makeList =[]
+// newstudentList.forEach(Element => {
+//   if(Element.includes("승")){
+//     makeList.push(Element)
+//   }
+// })
+// console.log(makeList)
 
 // 문항.15
 // 명단에 '홍'으로 시작하는 학생이 한 명이라도 있는지 확인하는 코드를 작성하세요.
+const newstudentList = [ "김우진", "김현", "방승희", "오승민", "홍문기", "유승민" ];
 
+newstudentList.forEach(Element=>{
+  let count = 0;
+  if(Element[0].includes("홍")){
+    // console.log(Element)
+    count = count + 1
+    if(count>0){
+      console.log('true')
+    }
+  } 
+})
