@@ -148,18 +148,23 @@ const pokemonList = ["피카츄", "라이츄", "파이리", "꼬부기"];
 
 // 문항.13
 // 명단 중에서 두 번째부터 네 번째 학생까지만 따로 명단을 만들려고 합니다. 이 부분 명단을 복사하여 새로운 배열을 만드는 코드를 작성하세요.
-const newList = [];
-for(i=0; i<studentList.length; i++){
-  if(studentList[i]<=studentList[3] && studentList[1]<=studentList[i])
-  newList.push(studentList[i])
-}
-console.log(newList)
+// const newList = [];
+// for(i=0; i<studentList.length; i++){
+//   if(studentList[i]<=studentList[3] && studentList[1]<=studentList[i])
+//   newList.push(studentList[i])
+// }
+// console.log(newList)
 
 // 문항.14
 // 명단에서 이름에 '승'을 포함하는 모든 학생들의 이름을 찾아 새로운 명단을 만드는 코드를 작성하세요.
-// const newstudentList = [ "김우진", "김현", "방승희", "오승민", "홍문기", "유승민" ];
-// for(i in studentList)
-
+const newstudentList = [ "김우진", "김현", "방승희", "오승민", "홍문기", "유승민" ];
+const makeList =[]
+newstudentList.forEach(Element => {
+  if(Element.includes("승")){
+    makeList.push(Element)
+  }
+})
+console.log(makeList)
 
 // 문항.15
 // 명단에 '홍'으로 시작하는 학생이 한 명이라도 있는지 확인하는 코드를 작성하세요.
