@@ -198,15 +198,26 @@
 // chng("befor", "after")
 
 //* 25. while문을 사용해 1부터 10까지의 수를 출력하는 코드를 작성하세요
-function stack(i){
-  while (i <= 10) {
-      console.log(i);
-      i = i + 1
-  }
-}
-stack(1)
+// function stack(i){
+//   while (i <= 10) {
+//       console.log(i);
+//       i = i + 1
+//   }
+// }
+// stack(1)
 
 //* 26. switch 문을 사용해 변수가 어떤 값인지 분기하는 코드를 작성하세요
+function selfruit(fruit){
+  switch (fruit) {
+      case "apple"  : console.log("Selected fruit is apple.");
+          break;
+      case "banana" : console.log("Selected fruit is banana.");
+          break;
+      default       : console.log("Unknown fruit.");
+  }
+}
+selfruit("yami")
+
 //* 27. try/catch문을 사용해 예외 처리한느 코드를 작성하세요 
 //* 28. continue문을 사용해 짝수만 출력하는 코드를 작성하세요
 //* 29. break문을 사용해 반복문을 중단하는 코드를 작성하세요
