@@ -151,20 +151,37 @@
 
 //* 20. 10을 3으로 나눈 마머지를 구하는 코드를 작성해보세요
   
-function div(a,b){
-  console.log(a%b)
-  console.log(Math.abs(a - (b * (a / b | 0))))
+// function div(a,b){
+//   console.log(a%b)
+//   console.log(Math.abs(a - (b * (a / b | 0))))
+// }
+// div(20,3)
+
+// explain : 
+// 그 다음 a / b | 0을 사용하여 
+// 비트 OR 연산자(|)를 이용하면 
+// 소수 부분을 제거하고 정수 부분만 남습니다. 
+// 이것은 나눈 몫을 구하는 효과를 가지며, 
+// 그 결과를 다시 b와 곱합니다.
+
+//* 21. x가 y보다 큰지 확인하는 조건식을 작성해 보세요
+const x = 1;
+const y = 2;
+function checkMount(x, y) {
+  if(x>y){ console.log('x win')
+  } if(x<y){ console.log('y win')
+  } else { console.log('x y same')
+  }
 }
-div(20,3)
+checkMount(2,3)
 
-explain : 
-그 다음 a / b | 0을 사용하여 
-비트 OR 연산자(|)를 이용하면 
-소수 부분을 제거하고 정수 부분만 남습니다. 
-이것은 나눈 몫을 구하는 효과를 가지며, 
-그 결과를 다시 b와 곱합니다.
+//* 22. x가 y와 같은지, 그리고 z가 0이 아닌지 확인하는 복합 조건식을 작성해보세요
 
 
+
+//* 23. x를 y로 나눈 몫을 구하는 코드를 작성해보세요
+
+//* 24. 두 변수 x,y 값을 서로 교환하는 코드를 작성해보세요
 
 
 
