@@ -174,7 +174,6 @@
 // checkMount(2,3)
 
 //* 22. x가 y와 같은지, 그리고 z가 0이 아닌지 확인하는 복합 조건식을 작성해보세요
-
 // function checkMount(x, y, z) {
 //   if(x===y && z!==0){ 
 //     console.log('true')
@@ -186,6 +185,11 @@
 
 
 //* 23. x를 y로 나눈 몫을 구하는 코드를 작성해보세요
+
+function divVal(x, y){
+  return console.log(x / y)
+}
+divVal(2,2)
 
 //* 24. 두 변수 x,y 값을 서로 교환하는 코드를 작성해보세요
 
