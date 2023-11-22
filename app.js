@@ -165,18 +165,24 @@
 // 그 결과를 다시 b와 곱합니다.
 
 //* 21. x가 y보다 큰지 확인하는 조건식을 작성해 보세요
-const x = 1;
-const y = 2;
-function checkMount(x, y) {
-  if(x>y){ console.log('x win')
-  } if(x<y){ console.log('y win')
-  } else { console.log('x y same')
-  }
-}
-checkMount(2,3)
+// function checkMount(x, y) {
+//   if(x>y){ console.log('x win')
+//   } if(x<y){ console.log('y win')
+//   } else { console.log('x y same')
+//   }
+// }
+// checkMount(2,3)
 
 //* 22. x가 y와 같은지, 그리고 z가 0이 아닌지 확인하는 복합 조건식을 작성해보세요
 
+// function checkMount(x, y, z) {
+//   if(x===y && z!==0){ 
+//     console.log('true')
+//   } else { 
+//     console.log('false')
+//   }
+// }
+// checkMount(2,2,1)
 
 
 //* 23. x를 y로 나눈 몫을 구하는 코드를 작성해보세요
