@@ -220,31 +220,35 @@
 
 //* 27. try/catch문을 사용해 예외 처리하는 코드를 작성하세요 
 
-function compare(a, b){
-  try {                 // 예외가 발생할 수 있는 코드
-    if(typeof(a)==="number" && typeof(b)==="number"){
-      if(a>b){
-        console.log("big a")
-      }else if(a<b){
-        console.log("big b")
-      }else if(a=b){
-        console.log("a and b is same")
-      }
-    }
-    if(typeof(a)!=="number" || typeof(b)!=="number"){
-      throw new Error("에러발생")
-    }
-  } catch {       // 예외가 발생했을 때 실행되는 코드
-    console.log("plz, put number")
-  } finally {           // 예외 발생 여부와 상관없이 항상 실행되는 코드
-    console.log("compare is done")
-  }
-}
-compare(1, "s")
-
-
+// function compare(a, b){
+//   try {                 // 예외가 발생할 수 있는 코드
+//     if(typeof(a)==="number" && typeof(b)==="number"){
+//       if(a>b){
+//         console.log("big a")
+//       }else if(a<b){
+//         console.log("big b")
+//       }else if(a=b){
+//         console.log("a and b is same")
+//       }
+//     }
+//     if(typeof(a)!=="number" || typeof(b)!=="number"){
+//       throw new Error("에러발생")
+//     }
+//   } catch {       // 예외가 발생했을 때 실행되는 코드
+//     console.log("plz, put number")
+//   } finally {           // 예외 발생 여부와 상관없이 항상 실행되는 코드
+//     console.log("compare is done")
+//   }
+// }
+// compare(1, "s")
 
 //* 28. continue문을 사용해 짝수만 출력하는 코드를 작성하세요
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 !== 0) { // 2로 나눈 나머지가 0과 같지 않으면
+    continue;        // 지나가고 
+  }
+  console.log(i);    
+}
 //* 29. break문을 사용해 반복문을 중단하는 코드를 작성하세요
 //* 30. 비어있는 객체를 선언하는 코드를 작성하세요
 //* 31. 속성 'address'가 대덕대로, 'number'가 182인 객체를 생성하세요
