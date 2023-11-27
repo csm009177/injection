@@ -265,14 +265,26 @@
 // console.log(obj)
 
 //* 31. 속성 'address'가 대덕대로, 'number'가 182인 객체를 생성하세요
-const academy = {
-  address : "대덕대로",
-  number : 182
-}
-console.log(academy.address)
-console.log(academy.number)
+// const academy = {
+//   address : "대덕대로",
+//   number : 182
+// }
+// console.log(academy.address)
+// console.log(academy.number)
 
 //* 32. 객체의 속성에 접근하는 두가지 방법을 코드로 작성하세요 
+// const academy = {
+//   address : "대덕대로",
+//   number : 182
+// }
+// // 1.
+// console.log(academy.address)
+// console.log(academy.number)
+// // 2.
+// console.log(Object.values(academy))
+
+
+
 //* 33. 객체에 새로운 속성을 동적으로 추가하는 코드를 작성하세요 
 //* 34. 객체의 속성을 삭제하는 코드를 작성하세요
 //* 35. 객체의 모든 속성을 순회하며 출력하는 코드를 작성하세요
