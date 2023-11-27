@@ -283,9 +283,15 @@
 // // 2.
 // console.log(Object.values(academy))
 
-
-
 //* 33. 객체에 새로운 속성을 동적으로 추가하는 코드를 작성하세요 
+const academy = {
+  address: "대덕대로",
+  number: 182
+};
+academy.newKey = "newVal";
+console.log(academy);
+
+
 //* 34. 객체의 속성을 삭제하는 코드를 작성하세요
 //* 35. 객체의 모든 속성을 순회하며 출력하는 코드를 작성하세요
 //* 36. this 키워드에 대해 성명하고 사용 예를 만드세요
