@@ -251,18 +251,18 @@
 // }
 
 //* 29. break문을 사용해 반복문을 중단하는 코드를 작성하세요 
-const num = [1, 2, 3, 4];
+// const num = [1, 2, 3, 4];
 
-for (let i = 0; i < num.length; i++) {
-  if (num[i] < 3) {
-    console.log(num[i]);
-    break;
-  }
-}
+// for (let i = 0; i < num.length; i++) {
+//   if (num[i] < 3) {
+//     console.log(num[i]);
+//     break;
+//   }
+// }
 
 //* 30. 비어있는 객체를 선언하는 코드를 작성하세요
-// const obj = {}
-// console.log(obj)
+const obj = {}
+console.log(obj)
 
 //* 31. 속성 'address'가 대덕대로, 'number'가 182인 객체를 생성하세요
 //* 32. 객체의 속성에 접근하는 두가지 방법을 코드로 작성하세요 
