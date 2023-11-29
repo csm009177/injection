@@ -292,25 +292,35 @@
 // console.log(academy);
 
 //* 34. 객체의 속성을 삭제하는 코드를 작성하세요
-const academy = {
-  address: "대덕대로",
-  number: 182
-};
-const newObj = {};
-function delProps(obj, index) {
-  const academyObjKey = Object.keys(obj);
-  const academyObjVal = Object.values(obj);
-  for (let i = 0; i < academyObjVal.length; i++) {
-    if (i !== index) {
-      newObj[academyObjKey[i]] = academyObjVal[i];
-    }
-  }
-  return newObj;
-}
-delProps(academy, 1);
-console.log(newObj);
+// const academy = {
+//   address: "대덕대로",
+//   number: 182
+// };
+// const newObj = {};
+// function delProps(obj, index) {
+//   const academyObjKey = Object.keys(obj);
+//   const academyObjVal = Object.values(obj);
+//   for (let i = 0; i < academyObjVal.length; i++) {
+//     if (i !== index) {
+//       newObj[academyObjKey[i]] = academyObjVal[i];
+//     }
+//   }
+//   return newObj;
+// }
+// delProps(academy, 1);
+// console.log(newObj);
 
 //* 35. 객체의 모든 속성을 순회하며 출력하는 코드를 작성하세요
+const obj = {
+  name: 'John',
+  age: 30,
+  city: 'New York',
+  gender: 'male'
+};
+for (const [key, value] of Object.entries(obj)) {
+  console.log(`${key}: ${value}`);
+}
+
 //* 36. this 키워드에 대해 성명하고 사용 예를 만드세요
 //* 37. 비어있는 배열을 선언하는 코드를 작성하세요
 //* 38. 1부터 5까지의 숫자를 원소로 갖는 배열을 선언하는 코드를 작성하세요
