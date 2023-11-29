@@ -284,15 +284,32 @@
 // console.log(Object.values(academy))
 
 //* 33. 객체에 새로운 속성을 동적으로 추가하는 코드를 작성하세요 
+// const academy = {
+//   address: "대덕대로",
+//   number: 182
+// };
+// academy.newKey = "newVal";
+// console.log(academy);
+
+//* 34. 객체의 속성을 삭제하는 코드를 작성하세요
 const academy = {
   address: "대덕대로",
   number: 182
 };
-academy.newKey = "newVal";
-console.log(academy);
+const newObj = {};
+function delProps(obj, index) {
+  const academyObjKey = Object.keys(obj);
+  const academyObjVal = Object.values(obj);
+  for (let i = 0; i < academyObjVal.length; i++) {
+    if (i !== index) {
+      newObj[academyObjKey[i]] = academyObjVal[i];
+    }
+  }
+  return newObj;
+}
+delProps(academy, 1);
+console.log(newObj);
 
-
-//* 34. 객체의 속성을 삭제하는 코드를 작성하세요
 //* 35. 객체의 모든 속성을 순회하며 출력하는 코드를 작성하세요
 //* 36. this 키워드에 대해 성명하고 사용 예를 만드세요
 //* 37. 비어있는 배열을 선언하는 코드를 작성하세요
